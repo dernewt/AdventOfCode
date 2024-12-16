@@ -4,8 +4,6 @@ namespace AdventOfCode;
 
 public class Day2
 {
-    public record Results(int SafeLevels, int SafeLevelsDampened);
-
     public static Results Run()
     {
         var levels = Parse(File.ReadAllText("Day2.cs.txt"))

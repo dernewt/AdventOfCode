@@ -5,7 +5,6 @@ namespace AdventOfCode;
 
 public partial class Day5
 {
-    public record Results(int MiddlePageNumbersSum, int FixedMiddlePageNumbersSum);
     public static Results Run()
     {
         var data = Parse(File.ReadAllText("Day5.cs.txt"));

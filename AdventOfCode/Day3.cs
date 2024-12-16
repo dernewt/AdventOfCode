@@ -5,8 +5,6 @@ namespace AdventOfCode;
 
 public class Day3
 {
-    public record Results(int MultiplicationsSum, int ConditionalMultiplicationsSum);
-
     public static Results Run()
     {
         var commands = ParseCommands(File.ReadAllText("Day3.cs.txt"));

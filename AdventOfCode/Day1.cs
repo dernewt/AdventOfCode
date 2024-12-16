@@ -2,8 +2,6 @@
 
 public class Day1
 {
-    public record Results(int TotalDifference, int SimilarityScore);
-
     public static Results Run()
     {
         var columns = Parse(File.ReadAllText("Day1.cs.txt"));

@@ -6,7 +6,6 @@ namespace AdventOfCode;
 
 public static partial class Day4
 {
-    public record Results(int XmasCount, int MasXCount);
     public static Results Run()
     {
         var grid = new LetterGrid(File.ReadAllLines("Day4.cs.txt"));
